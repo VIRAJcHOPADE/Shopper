@@ -1,11 +1,10 @@
 // import { Box } from "@mui/material";
 import React from "react";
 // import Header from "../../comp/Header";
-
-import { BsArrowDownRight, BsArrowUpRight } from "react-icons/bs";
 import { Column } from "@ant-design/plots";
 import { Table } from "antd";
 import "./board.css"
+
 const columns = [
   {
     title: "SNo",
@@ -220,7 +219,7 @@ const board = () => {
           </div>
           <div className="d-flex flex-column align-items-end">
             <h6>
-              <BsArrowDownRight /> 32%
+               32%
             </h6>
             <p className="mb-0  desc">Compared To April 2022</p>
           </div>
@@ -232,7 +231,7 @@ const board = () => {
           </div>
           <div className="d-flex flex-column align-items-end">
             <h6 className="red">
-              <BsArrowDownRight /> 32%
+              32%
             </h6>
             <p className="mb-0  desc">Compared To April 2022</p>
           </div>
@@ -244,7 +243,7 @@ const board = () => {
           </div>
           <div className="d-flex flex-column align-items-end">
             <h6 className="green">
-              <BsArrowDownRight /> 32%
+               32%
             </h6>
             <p className="mb-0 desc">Compared To April 2022</p>
           </div>
