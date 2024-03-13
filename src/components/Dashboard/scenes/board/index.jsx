@@ -2,7 +2,7 @@
 import React from "react";
 // import Header from "../../comp/Header";
 import { Column } from "@ant-design/plots";
-import { Table } from "antd";
+
 import "./board.css"
 
 const columns = [
@@ -209,7 +209,7 @@ const board = () => {
     },
   };
   return (
-    <div className="bg-gray p-4">
+    <div className=" p-4">
       <h3 className="mb-4 title">Dashboard</h3>
       <div className="d-flex justify-content-between align-items-center gap-3">
         <div className="d-flex justify-content-between align-items-end flex-grow-1 bg-white p-3 roudned-3">
@@ -255,22 +255,7 @@ const board = () => {
           <Column {...config} />
         </div>
       </div>
-      <div className="mt-4">
-        <h3 className="mb-5 title">Recent Orders</h3>
-        <div>
-        <Table
-            columns={columns}
-            dataSource={data1.map((item) => ({
-              ...item,
-              staus: (
-                <span className={item.staus === "Delivered" ? "green" : "yellow"}>
-                  {item.staus}
-                </span>
-              ),
-            }))}
-          />
-        </div>
-      </div>
+
     </div>
   );
 };

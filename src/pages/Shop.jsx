@@ -6,7 +6,8 @@ import { products } from "../utils/products";
 import ShopList from "../components/ShopList";
 import Banner from "../components/Banner/Banner";
 import useWindowScrollToTop from "../hooks/useWindowScrollToTop";
-
+import NavBar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer";
 const Shop = () => {
   const [filterList, setFilterList] = useState(
     products.filter((item) => item.category === "sofa")
@@ -14,6 +15,8 @@ const Shop = () => {
   useWindowScrollToTop();
 
   return (
+    <>
+    <NavBar />
     <Fragment>
       <Banner title="product" />
       <section className="filter-bar">
@@ -32,6 +35,8 @@ const Shop = () => {
         </Container>
       </section>
     </Fragment>
+    <Footer />
+    </>
   );
 };
 

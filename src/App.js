@@ -1,8 +1,8 @@
 import { lazy, Suspense } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import NavBar from "./components/Navbar/Navbar";
-import Footer from "./components/Footer/Footer";
+// import NavBar from "./components/Navbar/Navbar";
+// import Footer from "./components/Footer/Footer";
 import Loader from "./components/Loader/Loader";
 import { ToastContainer } from "react-toastify";
 import Dashboard from "./components/Dashboard/dashboard";
@@ -26,7 +26,7 @@ function App() {
           pauseOnHover
           theme="light"
         />
-        <NavBar />
+        
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
@@ -34,7 +34,7 @@ function App() {
           <Route path="/cart" element={<Cart />} />
         <Route path="/dashboard/*" element={<Dashboard />} /> {/* Update the route */}
         </Routes>
-        <Footer />
+        
       </Router>
     </Suspense>
   );

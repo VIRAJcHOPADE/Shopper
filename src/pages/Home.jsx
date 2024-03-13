@@ -4,7 +4,8 @@ import Section from "../components/Section";
 import { products, discoutProducts } from "../utils/products";
 import SliderHome from "../components/Slider";
 import useWindowScrollToTop from "../hooks/useWindowScrollToTop";
-
+import NavBar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer";
 const Home = () => {
   const newArrivalData = products.filter(
     (item) => item.category === "mobile" || item.category === "wireless"
@@ -12,6 +13,8 @@ const Home = () => {
   const bestSales = products.filter((item) => item.category === "sofa");
   useWindowScrollToTop();
   return (
+    <>
+    <NavBar />
     <Fragment>
       <SliderHome />
       <Wrapper />
@@ -19,14 +22,16 @@ const Home = () => {
         title="Big Discount"
         bgColor="#f6f9fc"
         productItems={discoutProducts}
-      />
+        />
       <Section
         title="New Arrivals"
         bgColor="white"
         productItems={newArrivalData}
-      />
+        />
       <Section title="Best Sales" bgColor="#f6f9fc" productItems={bestSales} />
     </Fragment>
+    <Footer />
+        </>
   );
 };
 

@@ -87,6 +87,16 @@ const NavBar = () => {
                 <span className="nav-link-label">Home</span>
               </Link>
             </Nav.Item>
+            <Nav.Item>
+              <Link
+                aria-label="Go to Home Page"
+                className="navbar-link"
+                to="/dashboard"
+                onClick={() => setExpand(false)}
+              >
+                <span className="nav-link-label">Dashboard</span>
+              </Link>
+            </Nav.Item>
 
             <Nav.Item>
               <Link

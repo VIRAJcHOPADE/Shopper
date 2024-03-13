@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
+import NavBar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer";
 import {
   addToCart,
   decreaseQty,
@@ -23,13 +25,15 @@ const Cart = () => {
     // }
   }, []);
   return (
+    <>
+    <NavBar />
     <section className="cart-items">
       <Container>
         <Row className="justify-content-center">
           <Col md={8}>
             {cartList.length === 0 && (
               <h1 className="no-items product">No Items are add in Cart</h1>
-            )}
+              )}
             {cartList.map((item) => {
               const productQty = item.price * item.qty;
               return (
@@ -53,13 +57,13 @@ const Cart = () => {
                             onClick={() =>
                               dispatch(addToCart({ product: item, num: 1 }))
                             }
-                          >
+                            >
                             <i className="fa-solid fa-plus"></i>
                           </button>
                           <button
                             className="desCart"
                             onClick={() => dispatch(decreaseQty(item))}
-                          >
+                            >
                             <i className="fa-solid fa-minus"></i>
                           </button>
                         </Col>
@@ -68,7 +72,7 @@ const Cart = () => {
                     <button
                       className="delete"
                       onClick={() => dispatch(deleteProduct(item))}
-                    >
+                      >
                       <ion-icon name="close"></ion-icon>
                     </button>
                   </Row>
@@ -88,6 +92,8 @@ const Cart = () => {
         </Row>
       </Container>
     </section>
+    <Footer />
+            </>
   );
 };
 
