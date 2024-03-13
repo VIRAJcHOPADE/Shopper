@@ -37,7 +37,7 @@ const NavBar = () => {
                 to="/"
                 onClick={() => setExpand(false)}
               >
-                <ion-icon name="bag"></ion-icon>
+                <ion-icon  name="bag"></ion-icon>
                 <h1 className="logo">Shopper</h1>
               </Link>
             </Nav.Item>
