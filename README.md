@@ -93,3 +93,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ![Screenshot 2024-03-13 122148](https://github.com/VIRAJcHOPADE/Shopper/assets/89187084/e1b1edbb-7ea7-49ec-ba8c-5b1da8e82ec9)
 
 ### Orders
+![Screenshot 2024-03-13 154405](https://github.com/VIRAJcHOPADE/Shopper/assets/89187084/203fa0b4-7af7-48c1-a808-d01913aa4470)
+
+### ADD Product
+![Screenshot 2024-03-13 154414](https://github.com/VIRAJcHOPADE/Shopper/assets/89187084/4df0e1d9-d69a-44b8-8933-f7a6105bf733)
+
+### Calendar
+![Screenshot 2024-03-13 122022](https://github.com/VIRAJcHOPADE/Shopper/assets/89187084/db0033dc-1957-4fb1-83aa-2be8fdb93912)
