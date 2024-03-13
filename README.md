@@ -74,5 +74,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+### Home Page
+![Screenshot 2024-03-13 122225](https://github.com/VIRAJcHOPADE/Shopper/assets/89187084/cbf85332-584a-4cc1-b5d5-051840875e98)
 
-![Home Page](https://github.com/VIRAJcHOPADE/Shopper/assets/89187084/3279b510-3453-4cc0-840b-6155af3d0f47)
+### Cart Page
+![Screenshot 2024-03-13 122253](https://github.com/VIRAJcHOPADE/Shopper/assets/89187084/634053a8-e15c-45d2-a683-2004719c48e6)
+
+### Shop Page
+![Screenshot 2024-03-13 122244](https://github.com/VIRAJcHOPADE/Shopper/assets/89187084/1634ab95-7781-4dcb-884f-811ea69e869e)
+
+### Product
+![Screenshot 2024-03-13 122235](https://github.com/VIRAJcHOPADE/Shopper/assets/89187084/6afa6a31-4a55-479a-baeb-21aeed5709b2)
+
+### Dashboard Light mode
+![Screenshot 2024-03-13 122155](https://github.com/VIRAJcHOPADE/Shopper/assets/89187084/fb52ad54-18dd-4098-a67c-47977f41b42c)
+
+### Dashboard Dark mode
+![Screenshot 2024-03-13 122148](https://github.com/VIRAJcHOPADE/Shopper/assets/89187084/e1b1edbb-7ea7-49ec-ba8c-5b1da8e82ec9)
+
+### Orders
