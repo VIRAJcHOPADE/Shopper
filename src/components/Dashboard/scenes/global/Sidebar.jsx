@@ -140,7 +140,7 @@ const Sidebar = () => {
               Pages
             </Typography>
             <Item
-              title="Profile Form"
+              title="Add Product"
               to="/dashboard/form"
               icon={<PersonOutlined />}
               selected={selected}
