@@ -1,5 +1,7 @@
 import React, { useState } from "react";
-import { Table, Button, Space } from "antd";
+import { Table, Button, Space, Select } from "antd";
+
+const { Option } = Select;
 
 const Orders = () => {
   const [data, setData] = useState([
@@ -122,6 +124,16 @@ const Orders = () => {
     setData(newData);
   };
 
+  const handleStatusChange = (key, value) => {
+    const newData = data.map((item) => {
+      if (item.key === key) {
+        return { ...item, staus: value };
+      }
+      return item;
+    });
+    setData(newData);
+  };
+
   const columns = [
     {
       title: "Product ID",
@@ -132,7 +144,7 @@ const Orders = () => {
       dataIndex: "name",
     },
     {
-      title: "Product",
+      title: "Product Name",
       dataIndex: "product",
     },
     {
@@ -142,10 +154,14 @@ const Orders = () => {
     {
       title: "Status",
       dataIndex: "staus",
-      render: (status) => (
-        <span className={status === "Delivered" ? "green" : "yellow"}>
-          {status}
-        </span>
+      render: (status, record) => (
+        <Select
+          defaultValue={status}
+          onChange={(value) => handleStatusChange(record.key, value)}
+        >
+          <Option value="Delivered">Delivered</Option>
+          <Option value="Pending">Pending</Option>
+        </Select>
       ),
     },
     {
@@ -164,7 +180,7 @@ const Orders = () => {
   ];
 
   return (
-    <div className="mt-4 bg-gray">
+    <div className="mt-4 bg-gray board-content">
       <h3 className="mb-5 title">Recent Orders</h3>
       <div>
         <Table columns={columns} dataSource={data} />
