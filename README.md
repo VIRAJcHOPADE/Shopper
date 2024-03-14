@@ -40,6 +40,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### Home Page 
 ![Screenshot 2024-03-13 122225](https://github.com/VIRAJcHOPADE/Shopper/assets/89187084/cbf85332-584a-4cc1-b5d5-051840875e98)
+
 User responsive interface.
 ![Screenshot 2024-03-14 135117](https://github.com/VIRAJcHOPADE/Shopper/assets/89187084/39da5ff3-185e-4009-8cd9-29badf45a880)
 
@@ -51,10 +52,12 @@ User responsive interface.
 
 ### Product
  Present a list of products with details such as name, category, price, and stock quantity, using mock data.
+ 
 ![Screenshot 2024-03-13 122235](https://github.com/VIRAJcHOPADE/Shopper/assets/89187084/6afa6a31-4a55-479a-baeb-21aeed5709b2)
 
 ### Dashboard Light mode
 Display a summary of key metrics of income Statics.
+
 ![Screenshot 2024-03-13 122155](https://github.com/VIRAJcHOPADE/Shopper/assets/89187084/fb52ad54-18dd-4098-a67c-47977f41b42c)
 
 ### Dashboard Dark mode
@@ -62,14 +65,18 @@ Display a summary of key metrics of income Statics.
 
 ### Orders
  Enable functionalities to update the status of order and delete order.
+ 
 ![Screenshot 2024-03-13 154405](https://github.com/VIRAJcHOPADE/Shopper/assets/89187084/203fa0b4-7af7-48c1-a808-d01913aa4470)
+
 User responsive interface.
 ![Screenshot 2024-03-14 135324](https://github.com/VIRAJcHOPADE/Shopper/assets/89187084/600f1045-7bcf-4434-a9ec-5f3e0528533b)
 
 ### ADD Product
 Enable functionalities to add new products.
+
 ![Screenshot 2024-03-13 154414](https://github.com/VIRAJcHOPADE/Shopper/assets/89187084/4df0e1d9-d69a-44b8-8933-f7a6105bf733)
 
 ### Calendar
 Implemented a calendar view that displays orders on their expected delivery dates.
+
 ![Screenshot 2024-03-13 122022](https://github.com/VIRAJcHOPADE/Shopper/assets/89187084/db0033dc-1957-4fb1-83aa-2be8fdb93912)
