@@ -64,6 +64,7 @@ Display a summary of key metrics of income Statics.
 ![Screenshot 2024-03-13 122148](https://github.com/VIRAJcHOPADE/Shopper/assets/89187084/e1b1edbb-7ea7-49ec-ba8c-5b1da8e82ec9)
 
 ### Orders
+ Show a list of orders, including details like order ID, customer name, order date, and status, using mock data.
  Enable functionalities to update the status of order and delete order.
  
 ![Screenshot 2024-03-14 135639](https://github.com/VIRAJcHOPADE/Shopper/assets/89187084/e6534fa9-03ad-46df-b08b-72834745742d)
