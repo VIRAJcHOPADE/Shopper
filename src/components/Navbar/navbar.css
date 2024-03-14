@@ -71,6 +71,9 @@
   transform: rotate(-135deg) !important;
   opacity: 0.9 !important;
 }
+ion-icon[name="bag"] {
+  color: black;
+}
 
 @media (max-width: 767px) {
   .navbar {
