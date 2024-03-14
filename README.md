@@ -66,7 +66,7 @@ Display a summary of key metrics of income Statics.
 ### Orders
  Enable functionalities to update the status of order and delete order.
  
-![Screenshot 2024-03-13 154405](https://github.com/VIRAJcHOPADE/Shopper/assets/89187084/203fa0b4-7af7-48c1-a808-d01913aa4470)
+![Screenshot 2024-03-14 135639](https://github.com/VIRAJcHOPADE/Shopper/assets/89187084/e6534fa9-03ad-46df-b08b-72834745742d)
 
 User responsive interface.
 ![Screenshot 2024-03-14 135324](https://github.com/VIRAJcHOPADE/Shopper/assets/89187084/600f1045-7bcf-4434-a9ec-5f3e0528533b)
